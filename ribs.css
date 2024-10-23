@@ -1,0 +1,110 @@
+body {
+	background-color:#86592d;
+	width: 99%;
+	color:white;
+	font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.head {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center; 
+  
+}
+h1 {
+	font-size:85px; 
+	width: 40%; 
+	display:flex;
+	text-align: center;
+  margin-top: 10px;
+  vertical-align: 100px;
+}
+
+nav {
+	font-size: 40px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	margin-top: -30px;
+	margin-bottom: -20px;
+}
+
+h2 {
+  font-size: 33px;
+}
+
+h3 {
+  font-size: 27.72px;
+}
+
+p {
+  font-size: 25px;
+  
+}
+
+ul {
+  font-size: 20px;
+  margin-top: -15px;
+}
+
+.foodParagrpah {
+  border-collapse: collapsed;
+  border: solid 1px;
+  
+}
+
+.imageAndTitle {
+  flex-wrap: wrap;
+  width: 400px;
+  justify-content: space-around;
+  text-align: center;
+  border-collapse: collapsed;
+  border: solid 2px;
+  margin: auto;
+}
+
+figcaption {
+  font-size: 40px;
+  
+}
+
+.reviews {
+  display: flex;
+  gap: 25px;
+  
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  width: 25%;
+  justify-content: left;
+  align-items: top;
+  background: #CECECE;
+  border: 1px solid black;
+  color: black;
+  border-radius: 8px;
+  
+}
+
+a {
+	color: white;
+	text-decoration: none; 
+}
+
+a:visited {
+	color:white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+	text-align: center;
+	font-size: 25px;
+	
+}
