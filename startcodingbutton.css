@@ -20,6 +20,7 @@ body {
   width: 15%;
   color: grey;
   border-image: linear-gradient(to bottom right, orange, purple) 1 round;
+  transition-duration: width 0.09s, height 0.09s;
 }
 
 .button:hover {
