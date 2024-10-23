@@ -17,7 +17,8 @@ body {
   font-size: 35px;
   padding: 15px;
   border: 3px solid;
-  width: 15%;
+  width: 100px;
+  height: 100px;
   color: grey;
   border-image: linear-gradient(to bottom right, orange, purple) 1 round;
   transition: width 2s, height 2s;
@@ -27,8 +28,8 @@ body {
   font-size: 40px;
   color: white;
   padding: 20px;
-  height: 49%;
-  width: 18%;
+  height: 150px;;
+  width: 150px;
   color: white;
   border-image: linear-gradient(to bottom left, orange, purple) 1 round;
 }
