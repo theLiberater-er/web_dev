@@ -2,29 +2,116 @@ body {
 	background-color:#86592d;
 	width: 99%;
 	color:white;
-	font-family: "Fantasy", "Papyrus";
-	font-size: 25px;
-}
-h1 {
-	font-size:85px; 
-	width: 20%; 
-	display:inline;
-	text-align: justify;
-	vertical-align: 100px;
+	font-family: "Caveat", cursive;
 }
 
-
-.summerRecipes {
-	padding-left: 80px;
+p {
+	font-size: 30px;
+	
 }
 
-#recipe_tavern_left {
-	margin-left: 350px;
-}
-nav {
-	text-align: center;
+fieldset {
 	font-size: 25px;
 	
+}
+
+.head {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	justify-content: center;
+}
+h1 {
+	font-size:100px; 
+	width: 30%; 
+	display:inline;
+	text-align: center;
+}
+
+nav {
+	font-size: 40px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	margin-top: -30px;
+	margin-bottom: -20px;
+}
+
+h2 {
+font-size: 60px;
+text-align: center;
+border: solid 1px;
+border-collapse: collapsed;
+	
+}
+
+h3 {
+border: solid 1px;
+margin-left: 175px;
+width: 60%;	
+border-collapse: collapsed;
+font-size: 50px;
+	
+}
+
+.popularAmongViewers {
+	display: inline;
+	width:50%;
+}
+figure {
+	margin-left: 30px;
+	text-align: center;
+}
+figcaption {
+	font-size: 30px;
+}
+.summerRecipes {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	text-align: left;
+	margin-top: -40px;
+}
+
+.splitColumn {
+  display: flex;
+	flex-wrap: no-wrap;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	
+}
+.splitColumn figure {
+	float: left;
+	width: 50%; 
+	flex-wrap: wrap;
+	margin-right: 0px;
+}
+
+.popularAmongViewers {
+  flex: 50%;
+	border-right: 2px solid;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+	display: inline;
+}
+.newlyAddedRecipes {
+	flex: 50%;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	text-align: center;
+}
+.newRecipes {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	
+}
+.chiliRecipes {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	justify-content: space-evenly;
 }
 
 a {
@@ -38,5 +125,6 @@ a:visited {
 
 footer {
 	text-align: center;
+	font-size: 25px;
 	
 }
