@@ -1,0 +1,42 @@
+body {
+	background-color:#86592d;
+	width: 99%;
+	color:white;
+	font-family: "Fantasy", "Papyrus";
+	font-size: 25px;
+}
+h1 {
+	font-size:85px; 
+	width: 20%; 
+	display:inline;
+	text-align: justify;
+	vertical-align: 100px;
+}
+
+
+.summerRecipes {
+	padding-left: 80px;
+}
+
+#recipe_tavern_left {
+	margin-left: 350px;
+}
+nav {
+	text-align: center;
+	font-size: 25px;
+	
+}
+
+a {
+	color: white;
+	text-decoration: none; 
+}
+
+a:visited {
+	color:white;
+}
+
+footer {
+	text-align: center;
+	
+}
