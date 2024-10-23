@@ -27,7 +27,8 @@ body {
   font-size: 40px;
   color: white;
   padding: 20px;
-  top: 49%;
+  height: 49%;
+  width: 18%;
   color: white;
   border-image: linear-gradient(to bottom left, orange, purple) 1 round;
 }
