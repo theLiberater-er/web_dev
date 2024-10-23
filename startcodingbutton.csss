@@ -1,0 +1,32 @@
+body {
+  background-color: #1b1b1b;
+  color: grey;
+}
+
+.wholeButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.button {
+  text-align: center;
+  position: absolute;
+  background-color: black;
+  font-size: 35px;
+  padding: 15px;
+  border: 3px solid;
+  width: 15%;
+  color: grey;
+  border-image: linear-gradient(to bottom right, orange, purple) 1 round;
+}
+
+.button:hover {
+  font-size: 40px;
+  font-color: white;
+  padding: 20px;
+  top: 49%;
+  color: white;
+  border-image: linear-gradient(to bottom left, orange, purple) 1 round;
+}
