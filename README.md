@@ -1,7 +1,21 @@
 # HTML
-<p>This repository is for all HTML-related projects and where all the files for those projects will be stored.</p>
-<p>Each branch will reflect a different project and will have its own readme file that will be a write-up of each project and explain what it is supposed to look like.</p>
-<p>Below are some resources I've found along the way that will help me as I continue down this path:</p>
-<p>https://web.archive.org/web/20230630111131/https://www.thinkful.com/blog/why-learning-to-code-is-so-damn-hard/<br>
-https://en.wikipedia.org/wiki/Web_design<br>
-https://www.udacity.com/blog/2020/12/front-end-vs-back-end-vs-full-stack-web-developers.html</p>
+<h1>This main branch will contain all HTML projects unless otherwise specified.</h1>
+<h4>Projects</h4>
+<ul>
+  <li>24 CSS Projects</li>
+    <ul>
+      <li>This folder holds projects from <a href="https://www.youtube.com/watch?v=TzuWIHGFKCQ">this video</a> that presents 24 projects that use almost 100% CSS and is designed to improve and enhance my CSS skills. The videos present the challenge, the requirements, what to research, and then a separate section with the solution and the code for that solution.</li>
+    </ul><br>
+    <li>Recipe-Tavern</li>
+      <ul>
+        <li>This is a personal project that is designed to house several recipes that can be cooked on a weeknight for folks who are always on the go or just don't have a lot of time to invest in the kitchen. The images on the home page are the extent of the recipes involved in this project, but the site clearly has the ability to expand the amount of recipes it can store. This site currently uses basic CSS, but may be improved upon in the future.</li>
+      </ul>
+</ul>
+  <h4>Videos and other resources used for learning</h4>
+  <ul>
+    <li><a href="https://www.youtube.com/watch?v=WXsD0ZgxjRw">APIs for Beginners 2023</a></li>
+    <li><a href="https://www.youtube.com/watch?v=TzuWIHGFKCQ">24 CSS Projects</a></li>
+    <li><a href="https://validator.w3.org/">W3 Markup Validation Service</li> 
+  </ul>
+  
+
