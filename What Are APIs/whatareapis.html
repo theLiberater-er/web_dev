@@ -62,7 +62,34 @@ Powerhouse companies like Google and Amazon use REST APIs in their technologies.
 			<li>SOAP has a standard set of rules, which means that the service and consumer don't necesarily have to have the same understanding of content and context.</li>
 		</ul>
 	</ul>
-
+</article>
+<article class="basicweb">
+<h3>How the web works</h3>
+<p>APIs rely on and use the already-established protocols and design of the web, so it's important to have a high level understanding of how the web, protocols, clients, and servers work together to make this thing called the internet happen.</p>
+<p>On a computer is a web client, which is used to access the web. the web client is used to access a server which is identified by the URL (Uniform Resource Locator) put into the address bar at the top of the screen. The URL is broken down by a scheme: the protocol and the web/domain address. the HTTP (Hyper Text Transfer Protocol) portion is a protocol that defines how data is used and defined. HTTP protocol will use that URL and the get action, which indicates that this HTTP call (the action of hitting enter into the web client when searching for a site) is purely receiving data and not sending data/making changes to the server. The server receives the request that was transferred from the web client. The server does whatever work it needs to do and sends back the expected web page. The most important part of the response from the server is the body, which consists of HTML. The browser renders the page. If a link is clicked in web page, then this whole "get" process is performed again. Between the clicks that activate the HTTP protocol, it sits in a stateless "state", meaning that after it receives a response, it's inactive, not looking for anything. This is to help save resources in the web client. There are more https verbs that define what the https call is doing, such as post. A good example would be submitting a form and posting that data from the form to the server.</p>
+</article>
+<article class="RESTful">
+<h3>RESTful API</h3>
+<p>APIs are often defined by their constraints. Here are the ones that are required to be met for an API to be considered RESTful:</p>
+<ul>
+	<li>Client-Server Architecture</li>
+	<li>Statelessness</li>
+	<li>Cacheability</li>
+	<li>Layerd System</li>
+	<li>Code on Demand</li>
+	<li>Uniform Interface</li>
+</ul>	
+<p>A request, an HTTP Get request in this case, is requesting information about a <i>resource</i>, which is also called an object. Resources often describe anything that is built (in the context of a web browser). Everything that we want those resources to do can be expressed using the acronym CRUD:</p>
+<ul>
+	<li>C: Creating</li>
+	<li>R: Reading</li>
+	<li>U: Updating</li>
+	<li>D: Deleting</li>
+</ul>
+</article>
+<article class="spotifyapi">
+<p>According to <a href="https://cyberinsight.co/what-is-an-uri-vs-url/">this</a> article, there is a difference between URLs (Uniform Resource Locator) and URIs (Uniform Resource Identifier). URLs are a type of URI that is used to identify a web resource using a protocol/scheme (https://), the domain name(www.example.com), and the path to the resource on that web server (/index.html). A URI is used to identify a name or resource on the internet. While URL only identifies web resources, a URI can identify any kind of resource using a string of characters that identifies a name or resource on the internet. URIs can include things like web pages, images, videos, and more. A URI consists of two main things: the scheme and the specific identifier of the resource you're trying to reach.</p>
+<p>In short, a URL identifies a specific type of resource while a URI can identify any kind of resource</p>
 </article>
 </body>
 </html>
