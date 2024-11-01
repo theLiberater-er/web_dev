@@ -4,15 +4,15 @@
   <ul>
     <li>HTML</li>
     <li>CSS</li>
-    <li>Learning about APIs and how they work</li>
-    <li>Python (for server-side and backend development</li>
+    <li>JavaScript</li>
   </ul>
   <li>Moving to more advanced functionality</li>
   <ul>
-    <li>JavaScript</li>
-    <li>PHP (optional, is a server-side language</li>
+    <li>Learning about APIs and how they work</li>
+    <li>Python (for server-side and backend development</li>
+    <li>Building a page that grabs data from a server I built as well. Fostering that client-server connection</li>
     <li>API Integration</li>
     <li>Learning different frameworks (Wordpress, Laravel, REACT, Vue.js, Angular)</li>
-    <li>Building a page that grabs data from a server I built as well. Fostering that client-server connection</li>
     <li>Database management (preferrably SQL server or Mongo DB)</li>
+     <li>PHP (optional, is a server-side language</li>
   </ul>
