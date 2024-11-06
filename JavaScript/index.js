@@ -1,31 +1,22 @@
-let myNumber = 42;
 
-let myFloat = 42.0;
+//the confirm function allows the user to hit either "OK" or "Cancel". OK produces a true boolean value and Cancel produces a boolean false value.
+let soup = 'chicken noodle';
+let answer = confirm("Do you want soup?");
+if (answer === true) {
+	console.log("Absolutely, we can make that for you");
+}
+else {
+	console.log("Fine, we didn't want to make your soup anyway");
+}
 
-console.log(String(myNumber) + myFloat);
+//prompt allows user input. clicking cancel provides a "null" value
+let name = prompt("Please enter your name: ");
+console.log(name);
 
 
-/*let word = "Jabroni";
 
-switch (word) {
-  case 'Jabroni':
-    alert("Patron Tequila");
-	break;
-  case 'School Counselor':
-    alert("Anything with Alcohol");
-	break;
-  case 'Programmer':
-    alert("Hipster Craft Beer");
-	break;
-  case 'Bike Gang Member':
-	alert("Moonshine");
-	break;
-  case 'Politician':
-	alert("Your tax dollars");
-	break;
-  case 'Rapper':
-	alert("Cristal");
-	break;
-  default:
-    alert("Beer");
+// Coding Challenge 1 (~33:00);
+/* for (let n = 0; n < 50; n++) {
+	let number = Math.floor(Math.random() * 10);
+	console.log("Bryce".charAt(number));
 } */
