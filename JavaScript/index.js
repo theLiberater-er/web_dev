@@ -1,3 +1,22 @@
+/* This set of code adds 1 to whatever number is submitted by the user
+let input = prompt("Please enter a number:");
+console.log("This is right before the function is created");
+let number = Number(input) + 1;
+function math() {
+	console.log("This is a console entry when the function is running");
+	window.alert("Here is what " + input + " + 1 equals: " + number);
+	console.log("The Number() function is used to convert strings to integers for mathmatical operation");
+	
+}
+console.log("This is right after the function is created");
+document.getElementById("button").addEventListener("click", math());
+*/
+let buttonInput = 
+
+
+
+/* The below set of code is used to add different cars to the cars array using window prompts -- not complete
+
 let buttonInput = document.getElementById("button");
 let updateList = document.getElementById('updateList');
 let cars = ["Ford","GMC","Chevy","Volkswagen","Cadillac"];
@@ -16,7 +35,10 @@ function updateAmount() {
 
 function updatedCars() {
 let numberUpdate = prompt('How many cars do you want to add?');
-//put a line that ends the function if the user clicks Cancel on either of the prompts
+if (numberUpdate === null) { //ends the function if 'Cancel' is clicked instead of next
+	console.log(numberUpdate); 
+	return;
+};
 let updateInput = prompt("Please enter another car brand to add");
 cars.splice(numberUpdate, 0, updateInput);
 document.getElementById("paragraph").innerHTML = cars;
@@ -26,8 +48,12 @@ document.getElementById("paragraph").innerHTML = cars;
 buttonInput.addEventListener("click", showCars);
 updateList.addEventListener('click', updatedCars);
 
+*/
 
-/*let word = "Jabroni";
+
+/* below code is just other projects, disregard
+
+let word = "Jabroni";
 
 switch (word) {
   case 'Jabroni':
@@ -51,3 +77,4 @@ switch (word) {
   default:
     alert("Beer");
 } */
+
